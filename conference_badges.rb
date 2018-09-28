@@ -11,12 +11,12 @@ def batch_badge_creator(attendees)
 end
 
 def assign_rooms(attendees)
-  assignment = Array.new
+  room_assignments = []
   attendees.each_with_index do |name,index|
-    assignment.push("#{index + 1}. #{name}")
+    room_assignments.push("#{index + 1}. #{name}")
   end
-assignment
-"Hello, #{assignment[0][0]}! You'll be assignment to room #{assignment[0][1]}!"
+room_assignments
+"Hello, #{room_assignments[0][0]}! You'll be assignment to room #{room_assignments[0][1]}!"
 end
 
 def printer
