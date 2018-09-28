@@ -17,7 +17,7 @@ def assign_rooms(attendees)
   end
 end
 assignment
-  puts "Hello, #{assignment[0][0]}! You'll be assigned to room #{assignment[0][1]}!"
+  #puts "Hello, #{assignment[0][0]}! You'll be assigned to room #{assignment[0][1]}!"
 end
 
 def printer
