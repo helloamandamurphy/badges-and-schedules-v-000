@@ -16,6 +16,7 @@ def assign_rooms(attendees)
   assignment[name] = index + 1
   }
 end
+assignment
   puts "Hello, #{assignment[0][0]}! You'll be assigned to room #{assignment[0][1]}!"
 end
 
