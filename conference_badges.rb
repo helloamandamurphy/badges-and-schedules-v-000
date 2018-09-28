@@ -15,7 +15,7 @@ def assign_rooms(attendees)
   attendees.each_with_index do |name,index|
     assignment.push("#{index + 1}. #{name}")
   end
-"Hello, "
+"Hello, #{name}! You'll be assignment to room #{index}!"
 end
 
 def printer
