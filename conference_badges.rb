@@ -16,7 +16,7 @@ def assign_rooms(attendees)
     assignment.push("#{index + 1}. #{name}")
   end
 assignment
-"Hello, #{name}! You'll be assignment to room #{index}!"
+"Hello, #{assignment[0][0]}! You'll be assignment to room #{assignment[0][1]}!"
 end
 
 def printer
