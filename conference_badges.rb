@@ -15,7 +15,7 @@ def assign_rooms(attendees)
   each_with_index = { |name,index|
   assignment[name] = index + 1
   }
-  puts "Hello, #{name}! You'll be assigned to room #{room_no}!"
+  puts "Hello, #{assignment[0][0]}! You'll be assigned to room #{assignment[0][1]}!"
 end
 
 def printer
