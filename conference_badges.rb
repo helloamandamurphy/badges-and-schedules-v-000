@@ -10,7 +10,8 @@ def batch_badge_creator(attendees)
   badges
 end
 
-def assign_rooms
+def assign_rooms(attendees)
+  each_with_index = [ ]
   puts "Hello, #{name}! You'll be assigned to room #{room_no}!"
 end
 
