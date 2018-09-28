@@ -12,8 +12,8 @@ end
 
 def assign_rooms(attendees)
   assignment = Array.new
-  attendees.each_with_index do |name,i|
-    assignment.push(name, i + 1)
+  attendees.each_with_index do |name,index|
+    assignment.push(name, index + 1)
   end
 assignment
 end
